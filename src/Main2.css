@@ -1,0 +1,18 @@
+.big-line{
+    border-left: 1px solid white; height: 350px;position:relative; 
+}
+.small-line{
+    border-left: 3px solid white;
+    height: 100px;
+    position:absolute;
+    transition: 1s;
+    /* transform: translateY(7rem); */
+
+}
+
+#vision:hover .small-line{
+    transform: translateY(7rem);
+}
+.vision-text:hover .small-line{
+    transform: translateY(3rem);
+}

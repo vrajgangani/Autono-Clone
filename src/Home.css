@@ -1,0 +1,39 @@
+.subscribe-btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.subscribe-btn{
+    background-color: black;
+    color: white;
+}
+.navbar-brand{
+    letter-spacing: 10px;
+    font-weight:bolder;
+    background-color: transparent !important;
+}
+.nav-items{
+    color: black !important;
+}
+.nav-items:hover{
+    color: brown !important;
+}
+.nav-scrolled{
+    background-color: white;
+}
+
+#bg-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    object-fit: cover;
+    background-color:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6));
+  }
+  
+  .home-page{
+    box-shadow: rgba(0, 0, 0, 1) 0px -100px 50px -30px inset;
+    height: 100vh;
+  }
