@@ -1,5 +1,4 @@
 import React from "react";
-import "./Main4.css";
 import Background from "./Image/background.webp";
 import "./Main2.css";
 import { ArrowRightShort } from "react-bootstrap-icons";
@@ -7,7 +6,7 @@ import { ArrowRightShort } from "react-bootstrap-icons";
 export const Main4 = () => {
   return (
     <div
-      className="container-fliud main-4"
+      className="container-fluid main-4 d-flex justify-content-center align-items-center"
       style={{
         backgroundImage: `url(${Background})`,
         height: "100vh",
@@ -15,7 +14,7 @@ export const Main4 = () => {
       }}
     >
       <div
-        className="vision-text-1 container bg-black text-white d-flex col-12 col-lg-6 col-md-6 col-sm-12 justify-content-center align-items-center p-lg-5 p-md-3 p-sm-3 p-3 text-sm-center text-lg-start text-md-center text-center rounded-4 mx-lg-5 my-lg-5" 
+        className="vision-text container bg-black text-white d-flex col-12 col-lg-6 col-md-6 col-sm-12 justify-content-center align-items-center p-lg-5 p-md-4 p-sm-4 p-3 text-sm-center text-lg-start text-md-center text-center rounded-4 mx-lg-5 mx-md-2 mx-sm-2 my-lg-5" 
         style={{ backgroundAttachment: "fixed" }}
       >
         <div>

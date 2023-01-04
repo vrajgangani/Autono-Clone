@@ -1,0 +1,13 @@
+.big-num-line{
+    height: 1px;
+    background-color: black;
+    width: 130px;
+    position:relative; 
+}
+.small-num-line{
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    position:absolute;
+    transition: 1s;
+}

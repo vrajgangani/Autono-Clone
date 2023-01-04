@@ -1,19 +1,12 @@
-.main-4{
-    position: relative;
+.big-line{
+    border-left: 1px solid black; 
+    width: 350px;
+    position:relative; 
 }
-.vision-text-1{
-    position: absolute;
-    /* width:33%; */
-    left:50px;
-    top: 15px;
-    bottom: 15px;
-}
-@media screen and (max-width:960px) {
-    .vision-text{
-        position: absolute;
-        width:25%;
-        left:50px;
-        top: 50px;
-    } 
-    
+.small-line{
+    border-left: 3px solid black;
+    width: 100px;
+    position:absolute;
+    transition: 1s;
+    /* transform: translateY(7rem); */
 }
