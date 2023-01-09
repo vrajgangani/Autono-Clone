@@ -17,7 +17,7 @@ function App() {
       <Main4 />
       <Numbers />
       <Industry />
-      <Careers/>
+      {/* <Careers/> */}
     </>
   );
 }
